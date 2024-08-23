@@ -11,6 +11,8 @@ Feature Extraction: Use CountVectorizer to convert tags into numerical vectors.
 Similarity Calculation: Compute cosine similarity between movies.
 Recommendation: Function returns top 5 similar movies to a given title.
 Model Saving: Store the DataFrame and similarity matrix using pickle.
+
+
 Learnings:
 Data merging and processing
 Text vectorization techniques
