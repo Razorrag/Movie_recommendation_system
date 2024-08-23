@@ -8,23 +8,23 @@ This project builds a content-based movie recommendation system using the TMDB 5
 
 Key Steps:
 
-Data Preparation: Merge datasets, clean, and convert JSON-like columns into lists.
+1)Data Preparation: Merge datasets, clean, and convert JSON-like columns into lists.
 
-Feature Extraction: Use CountVectorizer to convert tags into numerical vectors.
+2)Feature Extraction: Use CountVectorizer to convert tags into numerical vectors.
 
-Similarity Calculation: Compute cosine similarity between movies.
+3)Similarity Calculation: Compute cosine similarity between movies.
 
-Recommendation: Function returns top 5 similar movies to a given title.
+4)Recommendation: Function returns top 5 similar movies to a given title.
 
-Model Saving: Store the DataFrame and similarity matrix using pickle.
+5)Model Saving: Store the DataFrame and similarity matrix using pickle.
 
 
 Learnings:
 
-Data merging and processing
+1)Data merging and processing
 
-Text vectorization techniques
+2)Text vectorization techniques
 
-Cosine similarity for recommendations
+3)Cosine similarity for recommendations
 
-Model saving and deployment
+4)Model saving and deployment
